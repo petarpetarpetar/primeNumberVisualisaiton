@@ -3,7 +3,7 @@ int fieldSize=1;
 int n;
 int posX,posY;
 int count;
-int num;
+int num=41;
 boolean toggleText=false; //moze ovde da se iskljuci da u kvadratima bude broj radi lakseg pregleda kada se stavi mali fieldSize
 boolean stroke=false;  
 boolean prost(int x)
@@ -20,7 +20,6 @@ void setup()
 {
  if(!stroke){noStroke();}
  fullScreen(); 
-  num = 41; //broj u sredini;
   posX=width/2 - fieldSize/2;
   posY=height/2 - fieldSize/2;
   //fali rect u sredini!
